@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="esta pagina web es un ejemplo">
+    <meta name="Keyords" content="javascrip">
+    <link rel="icon" href="icono.png" type="img/png" sizes="16x16"/>
+    <title>primera pagina web</title>
+</head>
+<body>
+   <H1>Hola mundo</H1>
+   <H2>Hola mundo</H2>
+
+  <br>
+
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, veniam commodi vero animi expedita obcaecati cupiditate, vel, facilis quaerat iure deserunt. Doloremque velit placeat quos, consequuntur eum et unde debitis.</p>
+  <hr width=""sizes="S" color="black">
+  <tr>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam in sapiente aspernatur cumque saepe quos, recusandae quae officiis assumenda nam officia adipisci molestias earum illum ipsa nostrum obcaecati labore ducimus.</tr>
+</body>
+</html>
