@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>receta de sandwich</title>
+   
+</head>
+<body>
+    <h1> receta de sandwich a la abraham</h1>
+    <img src="imagen1.jpg" alt="descripcion de la imagen1" width="300" height="169">
+
+    <br>
+
+    <h3> utensilios </h3>
+    <ol type="I">
+      <li>cuchillo o cuchara </li>
+      <li> plato </li>
+    </ol>
+
+    <br>
+
+    <H3>INGRENDIENTES</H3>
+    <ol type="I">
+        <li>pan blanco o integral</li>
+        <li> mayonesa</li>
+        <li>mostaza</li>
+        <li>ketchup</li>
+        <li>queso en rebanadas</li>
+        <li>capas de lechuga</li>
+        <li>jamon o queso de puerco</li>
+        <li>cebolla picada</li>
+        <li>jitomate rebanado</li>
+        <li>rajas picantes</li>
+    </ol>
+
+    <br>
+
+    <h4> PASOS A SEGUIR PARA HACER TU sandwich</h4>
+    <h5> agarra 2 rebanadas de pan </h5>
+    <h5>con el cuchillo o cuchara un la mayonesa en un pan</h5>
+    <h5>con el cuchillo o cuchara un la mostaza en un pan</h5>
+    <h5>echa un chorrito de ketchup en un pan</h5>
+    <h5>pon dos renadas jamon en un pan</h5>
+    <h5>pon el queso en el mismo pan donde esta el jamon</h5>
+    <h5>pon 2 capas de lechuga en el mismo pan donde esta el queso</h5>
+    <h5>pon dos rebanas de tomate y unos trocitos de cebolla</h5>
+    <h5> pon las rajas al gusto tuyo</h5>
+    <h5>pon el otro pan encima y pon el sandwich en un plato</h5>
+
+    <br>
+
+    <h4>listo a comer</h4>
+
+    <h4> listas descriptivas</h4>
+  <dl>
+   <dl>Nombre</dl>
+   <dd> abraham</dd>
+   <dt>Apellido</dt>
+   <dd>Guzman hernandez</dd>
+   <dt>Cargo</dt>
+   <dd>cocinero profesional</dd>
+  </dl>
+
+  <h3>Tabla</h3>
+
+  <table border="1">
+    <thead>
+      <tr><th aria-colspan="8"></th></tr>
+      
+      <tr>
+        <th>carbohidratos</th>
+        <th>energia</th>
+        <th>grasas</th>
+        <th>fibra</th>
+        <th>grasas saturadas</th>
+        <th>sodio</th>
+      </tr>
+      <tbody>
+        <tr>
+        <td>30kg</td>
+        <td>300.01kcal</td>
+        <td>200.3g</td>
+        <td>3.1g</td>
+        <td>400g</td>
+        <td> 2.9g</td>
+        </tr>
+        
+        
+      </tbody>
+     </table>
+
+
+    </thead>
+
+    <h3>Formularios</h3>
+  <form action="action.php">
+    <fieldset>
+      <legend>Formulario de datos</legend>
+
+      <label for="Nombre"Nombre:></label>
+    <input type="text" id="Nombre" placeholder="Escribe tu Nombre" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email"placeholder="example@example.com">
+    <label for="password">Contraseña</label>
+    <input type="password" name="password"id="password">
+    <hr>
+    <label for="fecha">Fecha:</label>
+    <input type="date"name="fecha"id="fecha">
+    <label for="tiempo">Hora:</label>
+    <input type="time"id="tiempo">
+    <label for="number">Cantidad:</label>
+    <input type="number"id="numero">
+    <input type="number"min="0" max="10" id="number">
+    <input type="submit" value="Enviar">
+    <label for="comentario">Comentario:</label>
+    <textarea name="" id="" cols="100" rows="5"></textarea>
+    </fieldset>
+
+
+
+
+    <a href="https://github.com/abraham743/programacionweb_24cv.git"target="black">Enlaces</a>
+    <a href="#titulo">ir a titulo</a>
+    <a href="#">sin Enlaces</a>
+
+
+
+</body>
+</html>

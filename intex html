@@ -8,7 +8,7 @@
     <title>primera pagina web</title>
 </head>
 <body>
-   <H1>Hola mundo</H1>
+   <H1>HOLA MUNDO</H1>
    <H2>Hola mundo</H2>
 
   <br>
@@ -16,5 +16,144 @@
   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, veniam commodi vero animi expedita obcaecati cupiditate, vel, facilis quaerat iure deserunt. Doloremque velit placeat quos, consequuntur eum et unde debitis.</p>
   <hr width=""sizes="S" color="black">
   <tr>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam in sapiente aspernatur cumque saepe quos, recusandae quae officiis assumenda nam officia adipisci molestias earum illum ipsa nostrum obcaecati labore ducimus.</tr>
+  <h3> Enlaces</h3>
+  <a href="https://github.com/abraham743/programacionweb_24cv.git"target="black">Enlaces</a>
+  <a href="icono.png" target="_self">ver imagen (self)</a>
+  <a href="#titulo">ir a titulo</a>
+  <a href="#">sin Enlaces</a>
+
+  <h3>Lista ordenadas y desordenadas</h3>
+  <h4>listas ordenadas</h4>
+  <ol type="I">
+    <li>Elemento</li>
+    <li>Elemento
+    <ol type="I">
+      <li>Elemento 2</li>
+      <li>Elemento 2</li>
+      <li>Elemento 2</li>
+      </ol>
+    </li>
+ </ol>
+
+ 
+
+
+
+
+ <h4> listas descriptivas</h4>
+  <dl>
+   <dl>Nombre</dl>
+   <dd> abraham</dd>
+   <dt>Apellido</dt>
+   <dd>Guzman</dd>
+   <dt>Cargo</dt>
+   <dd>Programador</dd>
+  </dl>
+ 
+  <h3>imagenes</h3>
+  <img src="descarga4,gif " alt="imagen gif" width="465" height="219">
+  <br>
+  <img src="programa.jpg" alt="Descripcion de la imagen" width="603" height="603">
+  <br>
+
+  <h3>Tabla</h3>
+
+  <table border="1">
+    <thead>
+      <tr><th aria-colspan="8">Horario de clases</th></tr>
+      
+      <tr>
+        <th>Asignatura</th>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miercoles</th>
+        <th>Jueves</th>
+        <th>viernes</th>
+        <th>Sabado</th>
+        <th>Domingo</th>
+      </tr>
+
+    </thead>
+    <tbody>
+      <tr>
+        <tr>programacion-web</tr>
+      <td>14:00 a 16:00</td>
+      <td>14:00 a 16:00</td>
+      <td>sin clases</td>
+      <td>14:00 a 16:00</td>
+      <td>14:00 a 16:00</td>
+      <td rowspan="3">Sin clases </td>
+      <td rowspan="3">Sin clases </td>
+      </tr>
+      
+      <tr> Base de datos</tr>
+      <th></th>
+    </tbody>
+  </table>
+
+
+  <h3>Formularios</h3>
+  <form action="action.php">
+    <fieldset>
+      <legend>Formulario de datos</legend>
+
+      <label for="Nombre"Nombre:></label>
+    <input type="text" id="Nombre" placeholder="Escribe tu Nombre" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email"placeholder="example@example.com">
+    <label for="password">Contraseña</label>
+    <input type="password" name="password"id="password">
+    <hr>
+    <label for="fecha">Fecha:</label>
+    <input type="date"name="fecha"id="fecha">
+    <label for="tiempo">Hora:</label>
+    <input type="time"id="tiempo">
+    <label for="number">Cantidad:</label>
+    <input type="number"id="numero">
+    <input type="number"min="0" max="10" id="number">
+    <input type="submit" value="Enviar">
+    <label for="comentario">Comentario:</label>
+    <textarea name="" id="" cols="100" rows="5"></textarea>
+    </fieldset>
+    
+    <fieldset>
+      <legend>Datos adicionales</legend>
+      <label for="file">Sube un archivo</label>
+      <input type="file" id="file">
+      <label for="color">Seleciona un color</label>
+      <input type="color" id="color">
+      <input type="rest" value="restablecer">
+      <input type="submit" value="Enviar">
+    </fieldset>
+
+    <fieldset>
+      <legend>Selectores</legend>
+      <label for="selector">Seleciona una opcion</label>
+      <select name="selector" id="selector">
+        <option value="">opcion1</option>
+        <option value="" selected>opcion2</option>
+        <option value="">opcion3</option>
+        
+        
+      </select>
+
+      <input type="checkbox" id="opcion1" value="opcion1">
+      <label for="opcion1">OPcion 1</label>
+      <input type="checkbox" id="opcion1" value="opcion2">
+      <label for="opcion3">opcion 2</label>
+      <input type="checkbox" id="opcion1" value="opcion2">
+      <label for="opcion3">OPcion 3</label>
+
+      <br>
+      <label for="">Seleciona una opcion</label>
+
+      <input type="radio" id="opcion1" value="1">
+      <label for="opcion1">opcion 1</label>
+      <input type="radio" id="opcion2" value="2">
+      <label for="opcion2">opcion 2</label>
+      <input type="radio" id="opcion3" value="3">
+      <label for="opcion3">opcion 3</label>
+    </fieldset>
+  </form>
 </body>
 </html>
