@@ -1,0 +1,39 @@
+#parrafo3{
+    color: blue;
+    font-size: 150%;
+}
+body{
+    margin: 40%;
+    font-size: 170%;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    background-color: antiquewhite;
+    grid-gap: 10px;
+
+}
+.box{
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    
+}
+
+.header{
+    grid-column: 1/6;
+}
+
+.article{
+    grid-column: 1/5;
+}
+.aside{
+    grid-column: 5/6;
+    grid-row: 2/5;
+}
+.footer{
+    grid-column: 1/6;
+}
